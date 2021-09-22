@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de la compra</title>
+  </head>
+  <body>
+    <p><strong>Introduzca el supermercado de su eleccion seguido del producto y cantidad a comprar.</strong></p>
+        <table id="tablaCompra"  class="table">
+            <thead>
+                <tr>
+                    <th>Nombre Supermercado
+                        <br>
+                        <input type="text" name="numeroSupermercado" id="numeroSupermercado">
+                    </th>
+                    <th>Producto
+                        <br>
+                        <input type="text" name="productoCompra" id="productoCompra">
+                    </th>
+                    <th>Cantidad
+                        <br>
+                        <input type="number" name="cantidadCompra" id="cantidadCompra">
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        <p id = "supermercadoIngresado"></p>
+                    </th>
+                    <th>
+                        <p id = "productoIngresado"></p>
+                    </th>
+                    <th>
+                        <p id = "cantidadIngresado"></p>
+                    </th>
+                </tr>
+            </tbody>
+       </table>
+
+       <p>
+        <img src ="https://cdn.pixabay.com/photo/2013/07/12/14/53/cart-148964_960_720.png" width="150"/>
+    </p>
+       <input type="button" value="Añadir" id="lista"/>
+  </body>
+  <script src ="compra.js" > 
+</script>
+</html>
+
